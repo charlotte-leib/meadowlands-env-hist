@@ -1,0 +1,35 @@
+{
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/artifact_earlyam_schuylermine_1.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/artifact_earlyam_schuylermine_1.json",
+      "label": "front",
+      "width": 1600,
+      "height": 1527,
+      "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/artifact_earlyam_schuylermine_1/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/artifact_earlyam_schuylermine_1.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/artifact_earlyam_schuylermine_1/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/artifact_earlyam_schuylermine_1",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1600,
+            "height": 1527
+          },
+          "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/artifact_earlyam_schuylermine_1.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["custom.scss"],"names":[],"mappings":"AAAA,yBACI,iBAGJ,MACI","sourcesContent":[".leaflet-popup-content p {\n    font-size: .75rem;\n}\n\n.OWID {\n    padding-bottom: 30px;\n}"],"file":"custom.css"}

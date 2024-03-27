@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/map_earlyam_5",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2970,
+  "height": 1754,
+  "sizes": [
+    {
+      "width": 2970,
+      "height": 1754
+    },
+    {
+      "width": 250,
+      "height": 148
+    },
+    {
+      "width": 1140,
+      "height": 673
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

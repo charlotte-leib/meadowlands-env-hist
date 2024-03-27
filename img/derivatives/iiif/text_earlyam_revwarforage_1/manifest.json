@@ -1,0 +1,106 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/text_earlyam_revwarforage_1/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "text_earlyam_revwarforage_1",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/text_earlyam_revwarforage_1_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json",
+          "label": "Page 1",
+          "width": 2557,
+          "height": 3302,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2557,
+                "height": 3302
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json",
+          "label": "Page 2",
+          "width": 2544,
+          "height": 3292,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2544,
+                "height": 3292
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json",
+          "label": "Page 3",
+          "width": 2552,
+          "height": 3298,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_2",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2552,
+                "height": 3298
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/1140,/0/default.jpg"
+}

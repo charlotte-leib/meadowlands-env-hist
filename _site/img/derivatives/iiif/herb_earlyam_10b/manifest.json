@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_10b/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "herb_earlyam_10b",
+  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/herb_earlyam_10b.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/herb_earlyam_10b.json",
+          "label": "front",
+          "width": 2048,
+          "height": 1362,
+          "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/herb_earlyam_10b.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2048,
+                "height": 1362
+              },
+              "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/herb_earlyam_10b.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b/full/full/0/default.jpg",
+  "fullwidth": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_10b/full/1140,/0/default.jpg"
+}

@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/herb_earlyam_8b",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2888,
+  "height": 1969,
+  "sizes": [
+    {
+      "width": 2888,
+      "height": 1969
+    },
+    {
+      "width": 250,
+      "height": 170
+    },
+    {
+      "width": 1140,
+      "height": 777
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

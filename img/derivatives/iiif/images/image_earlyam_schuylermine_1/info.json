@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/image_earlyam_schuylermine_1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2622,
+  "height": 1144,
+  "sizes": [
+    {
+      "width": 2622,
+      "height": 1144
+    },
+    {
+      "width": 250,
+      "height": 109
+    },
+    {
+      "width": 1140,
+      "height": 497
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/text_earlyam_earlyrepublic_5_0",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1719,
+  "height": 2250,
+  "sizes": [
+    {
+      "width": 1719,
+      "height": 2250
+    },
+    {
+      "width": 250,
+      "height": 327
+    },
+    {
+      "width": 1140,
+      "height": 1492
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1920,
+  "height": 1261,
+  "sizes": [
+    {
+      "width": 1920,
+      "height": 1261
+    },
+    {
+      "width": 250,
+      "height": 164
+    },
+    {
+      "width": 1140,
+      "height": 749
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

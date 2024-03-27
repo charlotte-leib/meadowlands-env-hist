@@ -1,0 +1,233 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/wax/img/derivatives/iiif/collection/meadowworlds.json",
+  "@type": "sc:Collection",
+  "label": "meadowworlds",
+  "manifests": [
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/artifact_earlyam_schuylermine_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "artifact_earlyam_schuylermine_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_10a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_10a"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_10b/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_10b"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_11/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_11"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_11a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_11a"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_2a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_2a"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_3"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_3a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_3a"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_4"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_5"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_6"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_7"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_8"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_8a/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_8a"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_8b/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_8b"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/herb_earlyam_9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "herb_earlyam_9"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/image_earlyam_newbarbadoes_contemp_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "image_earlyam_newbarbadoes_contemp_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/image_earlyam_schuylermine_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "image_earlyam_schuylermine_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_4"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_5"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_5d/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_5d"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_6"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_revwar_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_revwar_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_revwar_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_revwar_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_revwar_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_revwar_3"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_revwar_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_revwar_4"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_schuylermine_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "map_earlyam_schuylermine_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/painting_earlyam_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "painting_earlyam_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_3"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_4"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_5"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_6"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_7"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_8"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_earlyrepublic_9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_earlyrepublic_9"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_hay_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_hay_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_hay_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_hay_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_hay_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_hay_3"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_revwarforage_1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_revwarforage_1"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_revwarforage_2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_revwarforage_2"
+    },
+    {
+      "@id": "http://localhost:4000/wax/img/derivatives/iiif/text_earlyam_revwarforage_3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "text_earlyam_revwarforage_3"
+    }
+  ]
+}
