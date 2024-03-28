@@ -1,10 +1,8 @@
 
 const landscapefeatures = L.layerGroup();
-const CedarSwamp = L.marker([40.760338, -74.122696]).bindPopup('<h5>Cedar Swamp</h5><p>In 1791, the cedars in this swamp were burned to the ground to improve surveillance over a key roadway for east-west trade and travel.</p><a href="/wax/meadowworlds/herb5a/" target="_blank"><img src="/wax/img/derivatives/simple/herb5/fullwidth.jpg"></a>').addTo(landscapefeatures);
+const CedarSwamp = L.marker([40.760338, -74.122696]).bindPopup('<h5>Cedar Swamp</h5><p>In 1791, the cedars in this swamp were burned to the ground to improve surveillance over a key roadway for east-west trade and travel.</p><a href="/meadowlands-env-hist/meadowworlds/herb_earlyam_2a/" target="_blank"><img src="/meadowlands-env-hist/img/derivatives/iiif/images/herb_earlyam_2a/full/full/0/default.jpg"></a>').addTo(landscapefeatures);
 
-const Haymarket = L.marker([40.751, -74.19]).bindPopup('<h5>Haymarket</h5><p>-</p><a href="/wax/meadowworlds/herb5a/" target="_blank"><img src="/wax/img/derivatives/simple/herb5/fullwidth.jpg" height="100px" width="50px"></a>').addTo(landscapefeatures);
-
-const SchuylersMansion = L.marker([40.7879, -74.1364]).bindPopup('<h5>Schuyler Mansion</h5><p>Ben Franklin visited the Schuylers in 1743 and recommended the Schuylers purchase a steam engine to add in the extraction of copper in the nearby Schuyler mine.</p><a href="/wax/meadowworlds/herb5a/"</a>').addTo(landscapefeatures);
+const SchuylersMansion = L.marker([40.7879, -74.1364]).bindPopup('<h5>Schuyler Mansion</h5><p>Ben Franklin visited the Schuylers in 1743 and recommended the Schuylers purchase a steam engine to add in the extraction of copper in the nearby Schuyler mine.</p><a href="/meadowlands-env-hist/meadowworlds/artifact_earlyam_schuylermine_1/"><img src="/meadowlands-env-hist/img/derivatives/iiif/images/artifact_earlyam_schuylermine_1/full/full/0/default.jpg"</a>').addTo(landscapefeatures);
 
 const foragelocations = L.layerGroup();
 const forageloc1 = L.marker([40.6768, -74.2222]).bindPopup('<h5>Forage Location test</h5><p>test text<p></a>').addTo(foragelocations);

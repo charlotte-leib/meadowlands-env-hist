@@ -1,47 +1,46 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/painting_earlyam_1/manifest.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/painting_earlyam_1/manifest.json",
   "@type": "sc:Manifest",
   "label": "painting_earlyam_1",
-  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1/full/250,/0/default.jpg",
+  "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/painting_earlyam_1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
   "sequences": [
     {
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/painting_earlyam_1.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/sequence/painting_earlyam_1.json",
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/painting_earlyam_1.json",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/painting_earlyam_1.json",
           "label": "front",
           "width": 1920,
           "height": 1261,
-          "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1/full/250,/0/default.jpg",
+          "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/painting_earlyam_1/full/250,/0/default.jpg",
           "images": [
             {
               "@type": "oa:Annotation",
-              "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/painting_earlyam_1.json",
+              "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/painting_earlyam_1.json",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1/full/full/0/default.jpg",
+                "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/painting_earlyam_1/full/full/0/default.jpg",
                 "@type": "dcterms:Image",
                 "format": "image/jpeg",
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1",
+                  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/painting_earlyam_1",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 },
                 "width": 1920,
                 "height": 1261
               },
-              "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/painting_earlyam_1.json"
+              "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/painting_earlyam_1.json"
             }
           ]
         }
       ]
     }
   ],
-  "full": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1/full/full/0/default.jpg",
-  "fullwidth": "http://localhost:4000/wax/img/derivatives/iiif/images/painting_earlyam_1/full/1140,/0/default.jpg"
+  "full": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/painting_earlyam_1/full/full/0/default.jpg"
 }

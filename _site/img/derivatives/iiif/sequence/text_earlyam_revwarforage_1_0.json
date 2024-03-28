@@ -1,88 +1,88 @@
 {
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/text_earlyam_revwarforage_1_0.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/sequence/text_earlyam_revwarforage_1_0.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json",
       "label": "Page 1",
       "width": 2557,
       "height": 3302,
-      "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/250,/0/default.jpg",
+      "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_0.json",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_0.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/full/0/default.jpg",
+            "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0",
+              "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_0",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 2557,
             "height": 3302
           },
-          "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json"
+          "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_0.json"
         }
       ]
     },
     {
       "@type": "sc:Canvas",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json",
       "label": "Page 2",
       "width": 2544,
       "height": 3292,
-      "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/250,/0/default.jpg",
+      "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_1.json",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_1.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/full/0/default.jpg",
+            "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1",
+              "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 2544,
             "height": 3292
           },
-          "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json"
+          "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json"
         }
       ]
     },
     {
       "@type": "sc:Canvas",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json",
       "label": "Page 3",
       "width": 2552,
       "height": 3298,
-      "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/250,/0/default.jpg",
+      "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_2.json",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_2.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/full/0/default.jpg",
+            "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2",
+              "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 2552,
             "height": 3298
           },
-          "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json"
+          "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_2.json"
         }
       ]
     }

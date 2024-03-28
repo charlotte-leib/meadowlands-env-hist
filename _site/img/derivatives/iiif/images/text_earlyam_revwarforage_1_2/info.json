@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_2",
   "protocol": "http://iiif.io/api/image",
   "width": 2552,
   "height": 3298,

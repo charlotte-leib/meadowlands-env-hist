@@ -7,20 +7,20 @@
     Meadow Worlds | A map of New England and New York
   </title>
 
-  <link rel='canonical' href='http://localhost:4000/wax/meadowworlds/map_earlyam_3/'/>
-  <link rel='icon' type='image/png' href="http://localhost:4000/wax/img/logo.png">
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/custom.css"/>
+  <link rel='canonical' href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_3/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/meadowlands-env-hist/img/logo.png">
+  <link rel='stylesheet' href="http://localhost:4000/meadowlands-env-hist/assets/styles.css"/>
+  <link rel='stylesheet' href="http://localhost:4000/meadowlands-env-hist/assets/custom.css"/>
 
-  <script type='text/javascript' src="http://localhost:4000/wax/assets/jquery-3.2.1.min.js"></script>
+  <script type='text/javascript' src="http://localhost:4000/meadowlands-env-hist/assets/jquery-3.2.1.min.js"></script>
 </head>
 
 
   <body>
-    <time datetime='2024-03-27 15:59'></time>
+    <time datetime='2024-03-28 11:43'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
-    <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
+    <a class='navbar-brand' href="http://localhost:4000/meadowlands-env-hist/" title='Home'>
       Meadow Worlds
     </a>
 
@@ -38,11 +38,11 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-about-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/about/'>Wax</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/about/'>Wax</a>
                 
                   <a class='dropdown-item' href='https://minicomp.github.io/wiki/wax/'>Documentation</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/credits/'>Credits</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/credits/'>Credits</a>
                 
               </div>
             </li>
@@ -55,11 +55,13 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-exhibits-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/a/'>Inline Parallax Image</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/haymarketdecline/'>Hay market decline</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/b/'>Inline Image References</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/early-dutch-english-settlement/'>Early Dutch and English Settlement</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/haymarketdecline/'>Hay market decline</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/foragewars1/'>Forage Wars</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/CO2emissions/'>Emissions and energy transitions</a>
                 
               </div>
             </li>
@@ -67,19 +69,19 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/collection/'>Browse</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/collection/'>Browse</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/search/'>Search</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/search/'>Search</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/reuse/'>Reuse</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/reuse/'>Reuse</a>
             </li>
           
         
@@ -97,19 +99,46 @@
 
 <h3 alt="A map of New England and New York" class='item-label'>A map of New England and New York</h3>
   <div class='item-view'>
-    <span class='pagination-link' id='prevlink'></span>
+    
+
+    
+      <div id="osd" class="image-viewer"></div>
+<script defer src="http://localhost:4000/meadowlands-env-hist/assets/openseadragon/openseadragon.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    var manifestUrl = "https://figgy.princeton.edu/concern/scanned_maps/161c030f-cfa5-44d1-90da-0a8cedf38fee/manifest";
+    $.getJSON(manifestUrl, function(data) {
+      var tileSources = [];
+      $.each(data.sequences[0].canvases, function(_k, val) {
+        tileSources.push({
+          tileSource: val.images[0].resource.service['@id'] + '/info.json',
+          referenceStripThumbnailUrl: val.thumbnail
+        });
+      });
+      OpenSeadragon({
+        id: "osd",
+        preload: true,
+        sequenceMode: true,
+        prefixUrl: "http://localhost:4000/meadowlands-env-hist/assets/openseadragon/images/",
+        tileSources: tileSources,
+        showReferenceStrip: true,
+      });
+    });
+  });
+</script>
 
     
     
-    <span class='pagination-link' id='nextlink'></span>
+    
   </div>
   
 
 
 
   <script type='text/javascript'>
-    $('#prevlink').append(`<a href='http://localhost:4000/wax/meadowworlds/map_earlyam_2/' display='none'>&#8249;</a>`);
-    $('#nextlink').append(`<a href='http://localhost:4000/wax/meadowworlds/map_earlyam_4/' display='none'>&#8250;</a>`);
+    $('#prevlink').append(`<a href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_2/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_4/' display='none'>&#8250;</a>`);
   </script>
 
 
@@ -119,15 +148,6 @@
 
 
   <dl class='metadata-block'>
-  
-    
-
-    
-    
-      
-        <dt>Label</dt>
-        <dd>A map of New England and New York</dd>
-    
   
     
 
@@ -151,16 +171,6 @@
 
     
     
-  
-    
-
-    
-    
-  
-    
-
-    
-    
       
         <dt>Date</dt>
         <dd>1676</dd>
@@ -175,6 +185,19 @@
 
     
     
+      
+        <dt>Author</dt>
+        <dd>Speed, John</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Author, date of birth, death</dt>
+        <dd>1552?-1629</dd>
+    
   
     
 
@@ -186,8 +209,74 @@
     
     
       
+        <dt>Publisher</dt>
+        <dd>sold by Tho. Basset in Fleet Street and Chiswell in St. Paul's Church Yard</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Place of publication</dt>
+        <dd>London</dd>
+    
+  
+    
+
+    
+    
+  
+    
+
+    
+    
+      
+        <dt>Holding institution</dt>
+        <dd>Princeton University Library, Special Collections, Rare Books Historic Map Collection</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Description from holding institution</dt>
+        <dd>This beautifully engraved and colored map represents an English version of the Jansson-Visscher series of maps of northeastern North America. Since it was published shortly after the expulsion of the Dutch from New York, the map displays geographical features similar to those found on its Dutch counterparts. However, the place names New Netherlands and New Amsterdam have been rechristened New York reflecting British control of the former Dutch colony. This map appeared in Thomas Basset and Richard Chiswell's 1676 edition of John Speed's world atlas, first published in 1627.</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Source</dt>
+        <dd><a href="https://catalog.princeton.edu/catalog/9957979523506421" target="_blank" rel="noreferrer">
+              catalog.princeton.edu
+            </a></dd>
+    
+  
+    
+
+    
+    
+      
         <dt>Copyright</dt>
         <dd>No known copyright restrictions. This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA).</dd>
+    
+  
+    
+
+    
+    
+  
+    
+
+    
+    
+      
+        <dt>IIIF manifest</dt>
+        <dd>https://figgy.princeton.edu/concern/scanned_maps/161c030f-cfa5-44d1-90da-0a8cedf38fee/manifest</dd>
     
   
 </dl>
@@ -219,7 +308,7 @@
             </a>
            / 
           
-            <a href='http://localhost:4000/wax/credits'>
+            <a href='http://localhost:4000/meadowlands-env-hist/credits'>
               Credits
             </a>
            / 
@@ -233,8 +322,8 @@
         <p class='footer-logos'>
           
           
-          <a href="http://localhost:4000/wax/" aria-label="Logo link to resource">
-            <img src='http://localhost:4000/wax/img/logo.png' alt="logo"/>
+          <a href="http://localhost:4000/meadowlands-env-hist/" aria-label="Logo link to resource">
+            <img src='http://localhost:4000/meadowlands-env-hist/img/logo.png' alt="logo"/>
           </a>
           
         </p>
@@ -243,7 +332,7 @@
   </div>
 </footer>
 
-    <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/bootstrap/bootstrap.min.js'></script>
-    <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/popper.min.js'></script>
+    <script type='text/javascript' async defer src='http://localhost:4000/meadowlands-env-hist/assets/bootstrap/bootstrap.min.js'></script>
+    <script type='text/javascript' async defer src='http://localhost:4000/meadowlands-env-hist/assets/popper.min.js'></script>
   </body>
 </html>

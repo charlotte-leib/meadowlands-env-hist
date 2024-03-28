@@ -61,7 +61,7 @@ collections:
     output: true
   meadowworlds: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'objectpage.html' # the layout for the pages to use
+    layout: 'objectpage' # the layout for the pages to use
     metadata:
       source: 'meadowworlds_EAH.csv' # path to the metadata file within `_data`
     images:
@@ -111,12 +111,15 @@ menu:
         link: '/credits/'
   - label: 'Exhibits'
     sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
       - label: 'Hay market decline'
         link: '/haymarketdecline/'
+      - label: 'Early Dutch and English Settlement'
+        link: '/early-dutch-english-settlement/'
+      - label: 'Forage Wars'
+        link: '/foragewars1/'
+      - label: 'Emissions and energy transitions'
+        link: '/CO2emissions/'
+
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'

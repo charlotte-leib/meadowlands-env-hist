@@ -1,19 +1,19 @@
 {
   "@type": "oa:Annotation",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_1.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/text_earlyam_revwarforage_1_1.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/full/0/default.jpg",
+    "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_revwarforage_1_1",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 2544,
     "height": 3292
   },
-  "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json",
+  "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_revwarforage_1_1.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
 }

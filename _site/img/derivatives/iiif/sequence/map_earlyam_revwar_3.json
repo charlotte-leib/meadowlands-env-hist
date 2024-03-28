@@ -1,32 +1,32 @@
 {
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/sequence/map_earlyam_revwar_3.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/sequence/map_earlyam_revwar_3.json",
   "@type": "sc:Sequence",
   "canvases": [
     {
       "@type": "sc:Canvas",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/map_earlyam_revwar_3.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/map_earlyam_revwar_3.json",
       "label": "front",
       "width": 4718,
       "height": 5120,
-      "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/map_earlyam_revwar_3/full/250,/0/default.jpg",
+      "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/map_earlyam_revwar_3/full/250,/0/default.jpg",
       "images": [
         {
           "@type": "oa:Annotation",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/map_earlyam_revwar_3.json",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/map_earlyam_revwar_3.json",
           "motivation": "sc:painting",
           "resource": {
-            "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/map_earlyam_revwar_3/full/full/0/default.jpg",
+            "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/map_earlyam_revwar_3/full/full/0/default.jpg",
             "@type": "dcterms:Image",
             "format": "image/jpeg",
             "service": {
               "@context": "http://iiif.io/api/image/2/context.json",
-              "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/map_earlyam_revwar_3",
+              "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/map_earlyam_revwar_3",
               "profile": "http://iiif.io/api/image/2/level0.json"
             },
             "width": 4718,
             "height": 5120
           },
-          "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/map_earlyam_revwar_3.json"
+          "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/map_earlyam_revwar_3.json"
         }
       ]
     }

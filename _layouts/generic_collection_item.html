@@ -8,7 +8,9 @@ layout: default
 
 <h3 alt="{{ page.label | escape }}" class='item-label'>{{ page.label }}</h3>
   <div class='item-view'>
+    {% comment %}
     <span class='pagination-link' id='prevlink'></span>
+    {% endcomment %}
 
     {% if page.manifest.size > 0 %}
       {% include osd_iiif_image_viewer.html manifest=page.manifest %}
@@ -16,7 +18,9 @@ layout: default
       {% include simple_image_viewer.html full_image=page.full %}
     {% endif %}
     
+    {% comment %}
     <span class='pagination-link' id='nextlink'></span>
+    {% endcomment %}
   </div>
   {% unless layout.pagination == false %}{% include item_pagination.html %}{% endunless %}
 

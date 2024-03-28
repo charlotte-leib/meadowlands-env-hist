@@ -1,19 +1,19 @@
 {
   "@type": "oa:Annotation",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/herb_earlyam_5.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/herb_earlyam_5.json",
   "motivation": "sc:painting",
   "resource": {
-    "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_5/full/full/0/default.jpg",
+    "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/herb_earlyam_5/full/full/0/default.jpg",
     "@type": "dcterms:Image",
     "format": "image/jpeg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_5",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/herb_earlyam_5",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 4800,
     "height": 7100
   },
-  "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/herb_earlyam_5.json",
+  "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/herb_earlyam_5.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
 }

@@ -1,28 +1,28 @@
 {
   "@type": "sc:Canvas",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_earlyrepublic_2_0.json",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_earlyrepublic_2_0.json",
   "label": "front",
   "width": 3344,
   "height": 2344,
-  "thumbnail": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0/full/250,/0/default.jpg",
+  "thumbnail": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0/full/250,/0/default.jpg",
   "images": [
     {
       "@type": "oa:Annotation",
-      "@id": "http://localhost:4000/wax/img/derivatives/iiif/annotation/text_earlyam_earlyrepublic_2_0.json",
+      "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/annotation/text_earlyam_earlyrepublic_2_0.json",
       "motivation": "sc:painting",
       "resource": {
-        "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0/full/full/0/default.jpg",
+        "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0/full/full/0/default.jpg",
         "@type": "dcterms:Image",
         "format": "image/jpeg",
         "service": {
           "@context": "http://iiif.io/api/image/2/context.json",
-          "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0",
+          "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_earlyrepublic_2_0",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
         "width": 1672,
         "height": 1172
       },
-      "on": "http://localhost:4000/wax/img/derivatives/iiif/canvas/text_earlyam_earlyrepublic_2_0.json"
+      "on": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/canvas/text_earlyam_earlyrepublic_2_0.json"
     }
   ],
   "@context": "http://iiif.io/api/presentation/2/context.json"

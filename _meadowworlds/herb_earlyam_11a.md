@@ -2,13 +2,12 @@
 pid: herb_earlyam_11a
 object_name: Plant image
 order: '17'
-label: Cytisus scoparius
-title: Cytisus scoparius
-medium: photograph
-layout: qatar_item
+label: Cytisus scoparius, (Scotch broom)
+object_type: photograph
 collection: meadowworlds
+layout: objectpage
 thumbnail: "/img/derivatives/iiif/images/herb_earlyam_11a/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/herb_earlyam_11a/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/herb_earlyam_11a/manifest.json"
 notes: Scotch Broom plant is closely related to the Spanish Broom (Spartium junceum).
   "Spartine" cord, also known as "Spartan rope" or "Laconian rope," refers to a type
   of rope made from the fibers of the Spartium plant, commonly known as Spanish broom
@@ -18,5 +17,4 @@ notes: Scotch Broom plant is closely related to the Spanish Broom (Spartium junc
   and even parts of their armor. The Spartium plant's fibers were strong and flexible,
   making them suitable for such applications. Spartan rope was prized for its durability
   and strength and was highly valued in ancient warfare.
-manifest: "/img/derivatives/iiif/herb_earlyam_11a/manifest.json"
 ---

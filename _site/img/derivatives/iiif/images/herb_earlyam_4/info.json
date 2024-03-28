@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/herb_earlyam_4",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/herb_earlyam_4",
   "protocol": "http://iiif.io/api/image",
   "width": 4800,
   "height": 7100,

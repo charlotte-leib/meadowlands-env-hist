@@ -45,6 +45,5 @@ layout: none
       ]
     }
   ],
-  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/image_earlyam_schuylermine_1/full/full/0/default.jpg",
-  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/image_earlyam_schuylermine_1/full/1140,/0/default.jpg"
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/image_earlyam_schuylermine_1/full/full/0/default.jpg"
 }

@@ -3,9 +3,8 @@ pid: map_earlyam_revwar_4
 object_name: Map
 order: '30'
 label: "[Newark Bay and its immediate vicinity]."
-title: "[Newark Bay and its immediate vicinity]."
 _date: "[177-]"
-medium: map
+object_type: map
 author: transcription of part of handwritten text; "allong the North side of Maple
   Island Creek is a dry Meadow & used by Waggon in the Summer. The Shoals at Bound
   Creek have three feet water at half flood in the Channel to the Creek Bar, above
@@ -24,10 +23,10 @@ author_placeofbirthdeath: 1738?-1795
 place: Newark, New Jersey
 holding_institution: University of Michigan, William L. Clements Library
 source: https://quod.lib.umich.edu/w/wcl1ic/x-1824/wcl001914
-layout: qatar_item
 collection: meadowworlds
+layout: objectpage
 thumbnail: "/img/derivatives/iiif/images/map_earlyam_revwar_4/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/map_earlyam_revwar_4/full/1140,/0/default.jpg"
+manifest: "/img/derivatives/iiif/map_earlyam_revwar_4/manifest.json"
 description_from_holding_institution: Pen and ink topographical map showing the confluence
   of the Passaic and Hackensack Rivers, forming Newark Bay, indicating roads and trails
   of military importance.Table of distances and several notes describe local conditions
@@ -41,5 +40,4 @@ copyright: The University of Michigan Library provides access to these materials
 _filename: 1778_Newark_Bay_and_its_immediate vicinity_UMichLibrary.jpg
 place_of_publication: London, England; Paris, France
 IIIF_manifest: https://quod.lib.umich.edu/cgi/i/image/api/manifest/wcl1ic:1824:WCL001914
-manifest: "/img/derivatives/iiif/map_earlyam_revwar_4/manifest.json"
 ---

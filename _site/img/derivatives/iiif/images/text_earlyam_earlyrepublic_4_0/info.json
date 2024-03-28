@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/text_earlyam_earlyrepublic_4_0",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/text_earlyam_earlyrepublic_4_0",
   "protocol": "http://iiif.io/api/image",
   "width": 1534,
   "height": 1063,

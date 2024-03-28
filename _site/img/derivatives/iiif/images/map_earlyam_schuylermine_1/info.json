@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:4000/wax/img/derivatives/iiif/images/map_earlyam_schuylermine_1",
+  "@id": "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/images/map_earlyam_schuylermine_1",
   "protocol": "http://iiif.io/api/image",
   "width": 4872,
   "height": 4817,

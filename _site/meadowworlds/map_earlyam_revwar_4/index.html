@@ -7,20 +7,20 @@
     Meadow Worlds | [Newark Bay and its immediate vicinity].
   </title>
 
-  <link rel='canonical' href='http://localhost:4000/wax/meadowworlds/map_earlyam_revwar_4/'/>
-  <link rel='icon' type='image/png' href="http://localhost:4000/wax/img/logo.png">
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/styles.css"/>
-  <link rel='stylesheet' href="http://localhost:4000/wax/assets/custom.css"/>
+  <link rel='canonical' href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_revwar_4/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/meadowlands-env-hist/img/logo.png">
+  <link rel='stylesheet' href="http://localhost:4000/meadowlands-env-hist/assets/styles.css"/>
+  <link rel='stylesheet' href="http://localhost:4000/meadowlands-env-hist/assets/custom.css"/>
 
-  <script type='text/javascript' src="http://localhost:4000/wax/assets/jquery-3.2.1.min.js"></script>
+  <script type='text/javascript' src="http://localhost:4000/meadowlands-env-hist/assets/jquery-3.2.1.min.js"></script>
 </head>
 
 
   <body>
-    <time datetime='2024-03-27 15:59'></time>
+    <time datetime='2024-03-28 11:43'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
-    <a class='navbar-brand' href="http://localhost:4000/wax/" title='Home'>
+    <a class='navbar-brand' href="http://localhost:4000/meadowlands-env-hist/" title='Home'>
       Meadow Worlds
     </a>
 
@@ -38,11 +38,11 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-about-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/about/'>Wax</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/about/'>Wax</a>
                 
                   <a class='dropdown-item' href='https://minicomp.github.io/wiki/wax/'>Documentation</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/credits/'>Credits</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/credits/'>Credits</a>
                 
               </div>
             </li>
@@ -55,11 +55,13 @@
               </a>
               <div class='dropdown-menu' aria-labelledby='wax-exhibits-dropdown'>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/a/'>Inline Parallax Image</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/haymarketdecline/'>Hay market decline</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/exhibits/b/'>Inline Image References</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/early-dutch-english-settlement/'>Early Dutch and English Settlement</a>
                 
-                  <a class='dropdown-item' href='http://localhost:4000/wax/haymarketdecline/'>Hay market decline</a>
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/foragewars1/'>Forage Wars</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/meadowlands-env-hist/CO2emissions/'>Emissions and energy transitions</a>
                 
               </div>
             </li>
@@ -67,19 +69,19 @@
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/collection/'>Browse</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/collection/'>Browse</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/search/'>Search</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/search/'>Search</a>
             </li>
           
         
           
             <li class='nav-item'>
-              <a class='nav-link' href='http://localhost:4000/wax/reuse/'>Reuse</a>
+              <a class='nav-link' href='http://localhost:4000/meadowlands-env-hist/reuse/'>Reuse</a>
             </li>
           
         
@@ -97,15 +99,15 @@
 
 <h3 alt="[Newark Bay and its immediate vicinity]." class='item-label'>[Newark Bay and its immediate vicinity].</h3>
   <div class='item-view'>
-    <span class='pagination-link' id='prevlink'></span>
+    
 
     
       <div id="osd" class="image-viewer"></div>
-<script defer src="http://localhost:4000/wax/assets/openseadragon/openseadragon.min.js"></script>
+<script defer src="http://localhost:4000/meadowlands-env-hist/assets/openseadragon/openseadragon.min.js"></script>
 
 <script>
   $(document).ready(function () {
-    var manifestUrl = "http://localhost:4000/wax/img/derivatives/iiif/map_earlyam_revwar_4/manifest.json";
+    var manifestUrl = "http://localhost:4000/meadowlands-env-hist/img/derivatives/iiif/map_earlyam_revwar_4/manifest.json";
     $.getJSON(manifestUrl, function(data) {
       var tileSources = [];
       $.each(data.sequences[0].canvases, function(_k, val) {
@@ -118,7 +120,7 @@
         id: "osd",
         preload: true,
         sequenceMode: true,
-        prefixUrl: "http://localhost:4000/wax/assets/openseadragon/images/",
+        prefixUrl: "http://localhost:4000/meadowlands-env-hist/assets/openseadragon/images/",
         tileSources: tileSources,
         showReferenceStrip: true,
       });
@@ -128,15 +130,15 @@
 
     
     
-    <span class='pagination-link' id='nextlink'></span>
+    
   </div>
   
 
 
 
   <script type='text/javascript'>
-    $('#prevlink').append(`<a href='http://localhost:4000/wax/meadowworlds/map_earlyam_revwar_3/' display='none'>&#8249;</a>`);
-    $('#nextlink').append(`<a href='http://localhost:4000/wax/meadowworlds/map_earlyam_revwar_5/' display='none'>&#8250;</a>`);
+    $('#prevlink').append(`<a href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_revwar_3/' display='none'>&#8249;</a>`);
+    $('#nextlink').append(`<a href='http://localhost:4000/meadowlands-env-hist/meadowworlds/map_earlyam_revwar_5/' display='none'>&#8250;</a>`);
   </script>
 
 
@@ -146,15 +148,6 @@
 
 
   <dl class='metadata-block'>
-  
-    
-
-    
-    
-      
-        <dt>Label</dt>
-        <dd>[Newark Bay and its immediate vicinity].</dd>
-    
   
     
 
@@ -178,16 +171,6 @@
 
     
     
-  
-    
-
-    
-    
-  
-    
-
-    
-    
       
         <dt>Date</dt>
         <dd>[177-]</dd>
@@ -202,6 +185,24 @@
 
     
     
+      
+        <dt>Author</dt>
+        <dd>transcription of part of handwritten text; "allong the North side of Maple Island Creek is a dry Meadow & used by Waggon in the Summer. The Shoals at Bound Creek have three feet water at half flood in the Channel to the Creek Bar, above that is only to be passed with a Boat drawing three feet water at high tide. / The single dotted line at No. 1 is a practicable path, a little wet but pretty good bottom across the Meadows by the head of flat creek crossing a Dam upon Frank's Creek and continuing nearly to the house of [Abraham Friers?] from whence is a causeway to the RIver opposite to Beef Point. / This is a Road that has never been frequented by the Rebels may be passed by a landing and effected with great secrecy. / Distances from Elizabeth Town to Newark 6 miles, Newark to Second River 3, Schuylers on Second River to ferry on Hackensack 4 Miles / [etc..more text on distances] / One Jonathan Sears at Bergen Point is well acquainted with every foor of the Meadows from Maple Island to the Ferrys. / List of ntoed Rebels now in Newark Mr. McCourter, Minister, Joseph Heddon; Chief Justice; Sam Hayes, Major.</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Author, date of birth, death</dt>
+        <dd>1738?-1795</dd>
+    
+  
+    
+
+    
+    
   
     
 
@@ -213,8 +214,65 @@
     
     
       
+        <dt>Place of publication</dt>
+        <dd>London, England; Paris, France</dd>
+    
+  
+    
+
+    
+    
+  
+    
+
+    
+    
+      
+        <dt>Holding institution</dt>
+        <dd>University of Michigan, William L. Clements Library</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Description from holding institution</dt>
+        <dd>Pen and ink topographical map showing the confluence of the Passaic and Hackensack Rivers, forming Newark Bay, indicating roads and trails of military importance.Table of distances and several notes describe local conditions and some local inhabitants.</dd>
+    
+  
+    
+
+    
+    
+      
+        <dt>Source</dt>
+        <dd><a href="https://quod.lib.umich.edu/w/wcl1ic/x-1824/wcl001914" target="_blank" rel="noreferrer">
+              quod.lib.umich.edu
+            </a></dd>
+    
+  
+    
+
+    
+    
+      
         <dt>Copyright</dt>
         <dd>The University of Michigan Library provides access to these materials for educational and research purposes. These materials may be under copyright. If you decide to use any of these materials, you are responsible for making your own legal assessment and securing any necessary permission. If you have questions about the collection, please contact the William L. Clements Library. If you have concerns about the inclusion of an item in this collection, please contact Library IT.</dd>
+    
+  
+    
+
+    
+    
+  
+    
+
+    
+    
+      
+        <dt>IIIF manifest</dt>
+        <dd>https://quod.lib.umich.edu/cgi/i/image/api/manifest/wcl1ic:1824:WCL001914</dd>
     
   
 </dl>
@@ -246,7 +304,7 @@
             </a>
            / 
           
-            <a href='http://localhost:4000/wax/credits'>
+            <a href='http://localhost:4000/meadowlands-env-hist/credits'>
               Credits
             </a>
            / 
@@ -260,8 +318,8 @@
         <p class='footer-logos'>
           
           
-          <a href="http://localhost:4000/wax/" aria-label="Logo link to resource">
-            <img src='http://localhost:4000/wax/img/logo.png' alt="logo"/>
+          <a href="http://localhost:4000/meadowlands-env-hist/" aria-label="Logo link to resource">
+            <img src='http://localhost:4000/meadowlands-env-hist/img/logo.png' alt="logo"/>
           </a>
           
         </p>
@@ -270,7 +328,7 @@
   </div>
 </footer>
 
-    <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/bootstrap/bootstrap.min.js'></script>
-    <script type='text/javascript' async defer src='http://localhost:4000/wax/assets/popper.min.js'></script>
+    <script type='text/javascript' async defer src='http://localhost:4000/meadowlands-env-hist/assets/bootstrap/bootstrap.min.js'></script>
+    <script type='text/javascript' async defer src='http://localhost:4000/meadowlands-env-hist/assets/popper.min.js'></script>
   </body>
 </html>
