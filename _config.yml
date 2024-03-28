@@ -82,16 +82,17 @@ search:
       meadowworlds:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - 'catalog_number'
           - 'object_name'
-          - 'title'
-          - 'place'
-          - 'collector'
+          - 'label'
           - '_date'
-          - 'description'
-          - 'current_location'
-          - 'repository'
-          - 'copyright'
+          - 'object_type'
+          - 'place'
+          - 'holding_institution'
+          - 'place_of_publication'
+          - 'description_from_holding_institution'
+          - 'author'
+          - 'author_placeofbirthdeath'
+          - 'notes'
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS

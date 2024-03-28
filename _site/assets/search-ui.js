@@ -13,7 +13,12 @@ function excerptedString(str) {
 
 function getThumbnail(item, url) {
   if (item.thumbnail) {
-    return `<img class='sq-thumb-sm' src='${url}${item.thumbnail}'/>&nbsp;&nbsp;&nbsp;`
+    if (item.thumbnail.startsWith('https')) {
+		  return `<img class='sq-thumb-sm' src='${item.thumbnail}'/>&nbsp;&nbsp;&nbsp;`
+	  }
+	else {
+		return `<img class='sq-thumb-sm' src='${url}${item.thumbnail}'/>&nbsp;&nbsp;&nbsp;`
+	  }
   }
   else {
     return `<img class='sq-thumb-sm' src='${url}${DEFAULT}'/>&nbsp;&nbsp;&nbsp;`

@@ -5,9 +5,9 @@ const map3 = L.map('map3', {
 });
 
 const jacobz1654mapNieuNederlant = L.tileLayer('https://allmaps.xyz/maps/d067eb292c19632e/{z}/{x}/{y}.png').addTo(map3)
-  map3.setView([40.784, -74.104], 12);
+  map3.setView([41.2, -74.32], 8);
 const speed1676mapNewEnglandNY = L.tileLayer('https://allmaps.xyz/maps/dfd55b30d25acf91/{z}/{x}/{y}.png').addTo(map3)
-  map3.setView([40.784, -74.104], 12);
+  map3.setView([41.2, -74.32], 8);
 
 
   L.control.coordinates({
