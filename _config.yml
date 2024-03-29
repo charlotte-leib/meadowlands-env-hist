@@ -18,10 +18,10 @@
 # ~> https://jekyllrb.com/docs/configuration/options/
 
 title:            'Meadow Worlds'
-description:      'Minimal Exhibitions with Jekyll'
+description:      'A companion site to an in-progress dissertation'
 url:              'https://charlotte-leib.github.io'
 baseurl:          '/meadowlands-env-hist'
-copyright:        'Example copyright org, 2023'
+copyright:        'Charlotte Leib, 2024'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png' 
 
